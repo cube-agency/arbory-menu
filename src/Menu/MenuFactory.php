@@ -46,10 +46,9 @@ class MenuFactory
                 }
                 return false;
             })
-            ->filter()
-            ->toArray();
+            ->filter();
 
-        return collect($items);
+        return $items;
     }
 
     /**
